@@ -1,0 +1,28 @@
+.home-page {
+  display: flexbox;
+}
+
+.opp-app {
+  width: 30%;
+  border: 2px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-opp {
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.classic-cars {
+  width: 30%;
+  border: 2px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.car-img {
+  width: 100%;
+}
+
+.furn-img {
+  width: 100%;
+}
