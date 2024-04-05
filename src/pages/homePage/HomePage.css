@@ -1,28 +1,56 @@
-.home-page {
-  display: flexbox;
+body {
+  background-color: rgb(74, 66, 66);
+  font-family: "Lato", sans-serif;
 }
 
-.opp-app {
-  width: 30%;
-  border: 2px solid black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.slider {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-.img-opp {
+.project {
+  width: 70%;
+}
+
+.project-image {
   width: 100%;
-  border-bottom: 1px solid grey;
+  height: 50vh;
 }
 
-.classic-cars {
-  width: 30%;
-  border: 2px solid black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.project-details {
+  height: 30vh;
+  background-color: rgb(86, 81, 81);
+  padding-top: 10px;
 }
 
-.car-img {
-  width: 100%;
+.arrow {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  background-color: #ccc; 
+  margin-top: 30%;
+  border: none; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 70px; 
+  cursor: pointer;
+  margin-right: 10px; 
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
 }
 
-.furn-img {
-  width: 100%;
+.arrow:hover {
+  background-color: #fafafa; 
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
