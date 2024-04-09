@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -9,7 +10,9 @@ function Header() {
          <div className={styles.links}>
             <ul>
                 <li>ABOUT ME</li>
-                <li>CV</li>
+                <li>
+                <a href="/CV">CV</a>
+                </li>
                 <li>CONTACT ME</li>
             </ul>
 
