@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     font-family: "Lato", sans-serif;
+    height: 40vh;
 }
 
 ul {
@@ -24,4 +25,9 @@ li {
 .logo {
     margin-left: 20px;
     font-size: 20px;
+}
+
+li a {
+    color: rgb(45, 42, 42);
+    
 }

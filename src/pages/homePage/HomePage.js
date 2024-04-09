@@ -1,9 +1,10 @@
+
 import { Link } from "react-router-dom"
 import oppImage from "../../images/cred-logo.png"
 import carImage from "../../images/cars.png"
 import furnImage from "../../images/furniture.png"
 import "./HomePage.css"
-
+import SwipeableViews from "react-swipeable-views"
 import { useState } from "react";
 import "./HomePage.css";
 
@@ -45,7 +46,10 @@ function HomePage() {
         <button className="arrow" onClick={prevProject}>&lt;</button>
         <div className="project">
         <a href={projects[currentProject].link} target="_blank" rel="noopener noreferrer">
-          <img className="project-image" src={projects[currentProject].image} alt={projects[currentProject].title} />
+          <div className="img-title">
+            <img className="project-image" src={projects[currentProject].image} alt={projects[currentProject].title} />
+            <h2>{projects[currentProject].title}</h2>
+          </div>
           <div className="project-details">
             <h2>{projects[currentProject].title}</h2>
             <p>{projects[currentProject].description}</p>
