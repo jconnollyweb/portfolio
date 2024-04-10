@@ -11,12 +11,12 @@ function App() {
   return (
    <div>
     <Header/>
-   <BrowserRouter basename="/portfolio">
+   <BrowserRouter>
       <Routes> 
-        <Route path="/portfolio" element={ < HomePage />} /> 
-        <Route path="/CV" element={ < MyCv />} />
-        <Route path="/aboutme" element={ < AboutMe />} />
-        <Route path="/contact" element={ < ContactMe />} />
+        <Route path="https://jconnollyweb.github.io/portfolio/portfolio" element={ < HomePage />} /> 
+        <Route path="https://jconnollyweb.github.io/portfolio/CV" element={ < MyCv />} />
+        <Route path="https://jconnollyweb.github.io/portfolio/aboutme" element={ < AboutMe />} />
+        <Route path="https://jconnollyweb.github.io/portfolio/contact" element={ < ContactMe />} />
         {/* removed / from path for github pages to work */}
       </Routes>
     </BrowserRouter>
