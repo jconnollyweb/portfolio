@@ -13,10 +13,11 @@ function App() {
     <Header/>
    <BrowserRouter>
       <Routes> 
-        <Route path="portfolio" element={ < HomePage />} />
+        <Route path="portfolio" element={ < HomePage />} /> 
         <Route path="CV" element={ < MyCv />} />
         <Route path="aboutme" element={ < AboutMe />} />
         <Route path="contact" element={ < ContactMe />} />
+        {/* removed / from path for github pages to work */}
       </Routes>
     </BrowserRouter>
     </div>
