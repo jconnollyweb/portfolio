@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ccabba0f.css",
-    "main.js": "/portfolio/static/js/main.77c31834.js",
+    "main.js": "/portfolio/static/js/main.c34adf07.js",
     "static/js/787.e54a33f3.chunk.js": "/portfolio/static/js/787.e54a33f3.chunk.js",
     "static/media/jccode.png": "/portfolio/static/media/jccode.c6072d27c728e7ed7b67.png",
     "static/media/cars.png": "/portfolio/static/media/cars.7d0cb4e1391b39686ad7.png",
@@ -11,11 +11,11 @@
     "static/media/cred-logo.png": "/portfolio/static/media/cred-logo.9a9b0b42acef10bbff8d.png",
     "index.html": "/portfolio/index.html",
     "main.ccabba0f.css.map": "/portfolio/static/css/main.ccabba0f.css.map",
-    "main.77c31834.js.map": "/portfolio/static/js/main.77c31834.js.map",
+    "main.c34adf07.js.map": "/portfolio/static/js/main.c34adf07.js.map",
     "787.e54a33f3.chunk.js.map": "/portfolio/static/js/787.e54a33f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccabba0f.css",
-    "static/js/main.77c31834.js"
+    "static/js/main.c34adf07.js"
   ]
 }
