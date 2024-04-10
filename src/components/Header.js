@@ -17,12 +17,12 @@ function Header() {
            </div>
          <div className={styles.links}>
             <ul>
-                <li><a href="/aboutme">ABOUT ME</a></li>
+                <li><Link to="/aboutme">ABOUT ME</Link></li>
                 <li>
-                <a href="/CV">CV</a>
+                <Link to="/CV">CV</Link>
                 </li>
-                <li><a href="/contact">CONTACT ME</a></li>
-                <li><a href="/portfolio">PROJECTS</a></li>
+                <li><Link to="/contact">CONTACT ME</Link></li>
+                <li><Link to="/">PROJECTS</Link></li>
             </ul>
 
          </div>

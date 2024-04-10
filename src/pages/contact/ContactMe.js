@@ -11,7 +11,7 @@ function ContactMe() {
         <div className={styles.contactContainer}>
             <h1> Contact Me</h1>
             <div className={styles.contLinks}>
-            <a href="https://www.linkedin.com/in/john-connolly-web/" target="_blank">
+            <a href="https://www.linkedin.com/in/john-connolly-web/" target="_blank" rel="noreferrer">
                 <div className={styles.linkLink}>
                     <FontAwesomeIcon icon={faLinkedin} />
                     <h2 className={styles.h2}>Visit my LinkedIn</h2>
@@ -22,13 +22,13 @@ function ContactMe() {
             <h2 className={styles.h2}>Give me a call on <br/> 07800634228 </h2>
             </div>
             <div className={styles.emailLink}>
-            <a href="mailto:johnc1983@hotmail.co.uk" target="_blank">
+            <a href="mailto:johnc1983@hotmail.co.uk" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faEnvelope} />
             <h2 className={styles.h2}>Send me an Email</h2>
             </a>
             </div>
             <div className={styles.emailLink}>
-            <a href="https://github.com/jconnollyweb" target="_blank">
+            <a href="https://github.com/jconnollyweb" target="_blank" rel="noreferrer">
                <FontAwesomeIcon icon={faGithub} />
             <h2 className={styles.h2}>Visit my GitHub</h2>
             </a>
