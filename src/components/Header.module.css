@@ -1,33 +1,53 @@
 .headerBody {
-    background-color: white;
+    height: 30vh;
     display: flex;
-    justify-content: space-between;
-    font-family: "Lato", sans-serif;
-    height: 40vh;
+    justify-content: space-evenly;
+    background-color: BLACK;
+    padding-top: 5%;
 }
 
-ul {
-    display: flex;
-    list-style-type: none; 
-    padding: 0;
-    
-   
+ .decOne h5 {
+    color: rgb(227, 81, 105);
+    font-size: 40px;
+    margin-bottom: 90%;
+    margin-left: 100%;
 }
 
-li {
-    margin-right: 20px;
-    font-size: 20px;
-    margin-top: 5%;
-    border-left: 2px solid grey;
-    padding-left: 10px;
+.decTwo h5 {
+    color: rgb(227, 81, 105);
+    font-size: 50px;
+    padding-top: 100%;
 }
 
-.logo {
-    margin-left: 20px;
-    font-size: 20px;
+.h3 {
+    margin-left: 3%;
 }
 
-li a {
-    color: rgb(45, 42, 42);
-    
+
+.links ul {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 5%;
+}
+
+.links li {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(227, 81, 105);
+    padding-bottom: 5px;
+
+}
+
+.headerBody h1 {
+    font-size: 50px;
+    color: WHITE;
+}
+
+.headerBody h3 {
+    color: rgb(227, 81, 105);
+}
+
+.headerBody p {
+    color: rgb(227, 81, 105);
 }

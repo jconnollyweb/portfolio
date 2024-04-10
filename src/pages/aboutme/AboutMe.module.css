@@ -1,0 +1,30 @@
+.aboutmeContainer {
+    background-color: rgba(255, 192, 203, 0.818);
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.htmlEntity {
+    color: red;
+    font-size: 50px;
+    padding-left: 25%;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.aboutmeContainer h3 {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1 {
+    margin-left: 3%;
+}

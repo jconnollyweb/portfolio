@@ -3,8 +3,10 @@ import { Link } from "react-router-dom"
 import oppImage from "../../images/cred-logo.png"
 import carImage from "../../images/cars.png"
 import furnImage from "../../images/furniture.png"
+import codeImage from "../../images/jccode.png"
+import yorkImage from "../../images/york.png"
+import presImage from "../../images/presentation.png"
 import "./HomePage.css"
-import SwipeableViews from "react-swipeable-views"
 import { useState } from "react";
 import "./HomePage.css";
 
@@ -12,22 +14,41 @@ function HomePage() {
   const projects = [
     {
       title: "Opportunities App",
-      description: "Static version of the final project of my apprenticeship...",
+      description: "A new version of the project I completed for the final project of my Apprenticeship. A react frontend, Express.js backend and a Postgres database. This was dockerized but is now being hosted on render.com(so it's a takes a minute for the servers to get going). I created this as a tool for engineers at my previous employer to see what client opportunities where coming up in the sales pipeline. The user can see all upcoming roles and fiter them by their skillset and grade in the company. As this was a consultancy where an engineer could move from client to client if needed. There is also an admin section for adding and editing roles.",
       image: oppImage,
       link: "https://opportunities-4.onrender.com/"
     },
     {
+      title: "York People First",
+      description: "This is a custom built WordPress theme I built as a volunteer project for a non profit organisation. It was built using HTML,CSS, JavaScript and PHP. This was my first client project before my Apprenticeship.",
+      image: yorkImage,
+      link: "https://yorkpeoplefirst.co.uk/"
+    },
+    {
+      title: "Presentation",
+      description: "This static site was created as I had to do a presentation for a job interview when I was trying to get into the industry and I decided to do that in the form of a web page. Mainly built with HTML and CSS with some JavaScript models and an image slider",
+      image: presImage,
+      link: "https://jconnollyweb.github.io/presentation/"
+    },
+    {
       title: "Classic Cars Responsive",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisci elit...",
+      description: "This is a static site I built whilst learning about responsive programming. It is mainly built with HTML and CSS and also an image slider built with JavaScript. It is fully responsive and can be used on all devices.  ",
       image: carImage,
       link: "https://jconnollyweb.github.io/classic-responsive/"
     },
     {
       title: "Furniture Store Responsive",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisci elit...",
+      description: "This is another static site I built in my early days of coding as I was teaching myself the basics of frontend. This is entirely made with just HTML and CSS. It is fully responsive",
       image: furnImage,
       link: "https://jconnollyweb.github.io/Maynooth-Furniture/"
+    },
+    {
+      title: "JC Coding",
+      description: "This is another static site I created. I built this when I was learning how to build custom themes for WordPress and this was the frontend I designed for the theme. You can see small similarities in the York People First site that I carried over. It is built with HTML,CSS and some JavaScript",
+      image: codeImage,
+      link: "https://jconnollyweb.github.io/JC-Coding//"
     }
+   
   ];
 
   const [currentProject, setCurrentProject] = useState(0);
