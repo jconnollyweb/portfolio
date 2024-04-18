@@ -122,7 +122,7 @@ a{
 
 .project-details {
   position: absolute;
- font-size: 10px;
+ font-size: 8px;
   display: none; 
   transition: opacity 0.3s ease;
 }

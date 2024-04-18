@@ -14,7 +14,7 @@ function HomePage() {
   const projects = [
     {
       title: "Opportunities App",
-      description: "A new version of my Apprenticeship final project. A full stack App built using React, Express and PostresSQl. This was dockerized but is now being hosted on render.com(so it's a takes a minute for the servers to get going). I created this as a tool for engineers at my previous employer to see what client opportunities where coming up in the sales pipeline. The user can see all upcoming roles and fiter them by their skillset and grade in the company. As this was a consultancy where an engineer could move from client to client if needed. There is also an admin section for adding and editing roles.",
+      description: "A new version of my Apprenticeship final project. A full stack App built using React, Express and PostresSQl. This was dockerized but is now being hosted on render.com. I created this as a tool for engineers in the company to see what client opportunities where coming up in the pipeline. The user can see all upcoming roles and fiter them by their skillset and grade. There is also an admin section for adding and editing roles.",
       image: oppImage,
       link: "https://opportunities-4.onrender.com/"
     },
