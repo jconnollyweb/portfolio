@@ -120,4 +120,11 @@ a{
     margin-top: 10%;
 }
 
+.project-details {
+  position: absolute;
+ font-size: 10px;
+  display: none; 
+  transition: opacity 0.3s ease;
+}
+
 }
