@@ -88,3 +88,36 @@ a{
   color: white;
 } 
 
+
+@media only screen and (min-width: 320px) and (max-width: 430px) {
+ 
+  body {
+    width: 100%;
+  }
+
+  .slider {
+    width: 95%;
+    margin-top: 5%;
+    margin-right: 4%;
+  }
+
+  .arrow {
+    height: 10%;
+    width: 10%;
+    font-size: 40px;
+    margin-top: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+  .project {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin-top: 2%;
+    position: relative;
+    margin-top: 10%;
+}
+
+}
