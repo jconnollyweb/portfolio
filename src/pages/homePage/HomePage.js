@@ -6,12 +6,19 @@ import furnImage from "../../images/furniture.png"
 import codeImage from "../../images/jccode.png"
 import yorkImage from "../../images/york.png"
 import presImage from "../../images/presentation.png"
+import medalImage from "../../images/medals.png"
 import "./HomePage.css"
 import { useState } from "react";
 import "./HomePage.css";
 
 function HomePage() {
   const projects = [
+    {
+      title: "Doncaster Light Infantry Museum Interactive Display",
+      description: "An interactive display I built as a freelance project for the Doncaster King's Own Light Infantry Museum. This was a custom built WordPress theme. So people could find out more information about the medals being displayed. It was built using PHP, HTML, CSS and JavaScript.  ",
+      image: medalImage,
+      link: "https://bdldev.co.uk/doncaster/av01/"
+    },
     {
       title: "Opportunities App",
       description: "A new version of my Apprenticeship final project. A full stack App built using React, Express and PostresSQl. This was dockerized but is now being hosted on render.com. I created this as a tool for engineers in the company to see what client opportunities where coming up in the pipeline. The user can see all upcoming roles and fiter them by their skillset and grade. There is also an admin section for adding and editing roles.",
