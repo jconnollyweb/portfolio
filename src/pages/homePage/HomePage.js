@@ -7,12 +7,19 @@ import codeImage from "../../images/jccode.png"
 import yorkImage from "../../images/york.png"
 import presImage from "../../images/presentation.png"
 import medalImage from "../../images/medals.png"
+import movieImage from "../../images/movies.png"
 import "./HomePage.css"
 import { useState } from "react";
 import "./HomePage.css";
 
 function HomePage() {
   const projects = [
+    {
+      title: "WordPress Custom Theme- Movie Site",
+      description: "Following on from my previous Wordpress Project I have built a small Movie Website theme to build on my knowledge of custom themes and post types. Again it was built using PHP, HTML, CSS and JavaScript.  ",
+      image: movieImage,
+      link: "http://port-projects.42web.io/"
+    },
     {
       title: "Doncaster Light Infantry Museum Interactive Display",
       description: "An interactive display I built as a freelance project for the Doncaster King's Own Light Infantry Museum. This was a custom built WordPress theme. So people could find out more information about the medals being displayed. It was built using PHP, HTML, CSS and JavaScript.  ",
