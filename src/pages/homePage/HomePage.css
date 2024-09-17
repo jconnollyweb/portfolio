@@ -3,128 +3,143 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.slider {
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(to right, #f84e24, #feb47b);
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 10px;
-  height: 55vh;
+.home-page {
+  width: 100%;
+  overflow: hidden;
 }
 
-.project {
-  width: 50%;
-  height: 90%;
+.projects-container {
   display: flex;
-  margin-top: 2%;
-  position: relative;
+  height: 50vh;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #f84e24, #feb47b);;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: orange transparent; /* Firefox */
   
 }
 
+.projects-container::-webkit-scrollbar {
+  height: 10px; /* Height of the horizontal scrollbar */
+}
 
+.projects-container::-webkit-scrollbar-track {
+  background: transparent; /* Invisible background */
+}
 
- h2 {
-  background-color: rgb(232, 70, 16);
-  margin-top: -5px;
-  padding: 20px;
+.projects-container::-webkit-scrollbar-thumb {
+  background: orange; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+  background: darkorange; /* Darker color on hover */
+}
+
+.project {
+  flex: 0 0 auto;
+  width: 35%; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  margin: 0 10px; /* Add margin between projects */
+  position: relative;
+  scroll-snap-align: start;
 }
 
 .img-title {
-  position: absolute;
   width: 100%;
   height: 80%;
+  position: relative;
 }
-img {
+
+.project-image {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  background-color: rgb(232, 70, 16);
+  margin: 0;
+  padding: 10px;
 }
 
 .project-details {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(224, 111, 36, 0.933);  
+  background-color: rgba(224, 111, 36, 0.933);
   width: 100%;
   height: 100%;
-  display: none; 
-  transition: opacity 0.3s ease;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .project:hover .project-details {
-  display: block; /* Show on hover */
+  display: flex; /* Show on hover */
 }
 
-.project-details h2,
-.project-details p {
-  color: white; /* Text color */
-}
-
-.arrow {
-  width: 100px; 
-  height: 100px; 
-  border-radius: 50%; 
-  color: rgb(236, 72, 17);
-  background-color: #cccccc5b; 
-  margin-top: 15%;
-  border: none; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  font-size: 70px; 
-  cursor: pointer;
-  margin-right: 10px; 
-  margin-left: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.arrow:hover {
-  background-color: #fafafa; 
-}
-
-a{
+a {
   text-decoration: none;
   color: white;
-} 
+}
 
 
-@media only screen and (min-width: 320px) and (max-width: 430px) {
- 
-  body {
-    width: 100%;
+@media only screen and (max-width: 1200px) {
+  .projects-container {
+    height: 40vh; /* Adjust height for smaller screens */
   }
 
-  .slider {
-    width: 95%;
-    margin-top: 5%;
-    margin-right: 4%;
+  .project {
+    width: 50%; /* Adjust width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    height: auto; /* Adjust height for even smaller screens */
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
-  .arrow {
-    height: 10%;
-    width: 10%;
-    font-size: 40px;
-    margin-top: 50%;
-    margin-left: 0px;
-    margin-right: 0px;
+  .project {
+    width: 80%; /* Adjust width for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
+  }
 
+  .project-image {
+    object-fit: contain; /* Ensure full image is visible on small screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .project {
+    width: 90%; /* Further adjust width for very small screens */
+  }
+
+  .project-image {
+    object-fit: contain; /* Ensure full image is visible on very small screens */
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
   }
 
   .project {
     width: 80%;
-    height: 80%;
-    display: flex;
-    margin-top: 2%;
-    position: relative;
-    margin-top: 10%;
-}
-
-.project-details {
-  position: absolute;
- font-size: 8px;
-  display: none; 
-  transition: opacity 0.3s ease;
-}
-
-}
+    height: auto;
+  }
+} */
