@@ -16,7 +16,7 @@ function HomePage() {
   const projects = [
     {
       title: "WordPress Custom Theme- Movie Site",
-      description: "Following on from my previous Wordpress Project I have built a small Movie Website theme to build on my knowledge of custom themes and post types. Again it was built using PHP, HTML, CSS and JavaScript.  ",
+      description: "Following on from my previous Wordpress Project I have built a small Movie Website theme to build on my knowledge of custom themes and post types. Again it was built  using PHP, HTML, CSS and JavaScript.  ",
       image: movieImage,
       link: "http://port-projects.42web.io/"
     },
@@ -77,23 +77,27 @@ function HomePage() {
 
   return (
     <div className="home-page">
-      <div className="slider">
-        <button className="arrow" onClick={prevProject}>&lt;</button>
-        <div className="project">
-        <a href={projects[currentProject].link} target="_blank" rel="noopener noreferrer">
-          <div className="img-title">
-            <img className="project-image" src={projects[currentProject].image} alt={projects[currentProject].title} />
-            <h2>{projects[currentProject].title}</h2>
-          </div>
-          <div className="project-details">
-            <h2>{projects[currentProject].title}</h2>
-            <p>{projects[currentProject].description}</p>
-          </div>
+    <div className="projects-container">
+      {projects.map((project, index) => (
+        <div className="project" key={index}>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <div className="img-title">
+              <img
+                className="project-image"
+                src={project.image}
+                alt={project.title}
+              />
+              <h2>{project.title}</h2>
+            </div>
+            <div className="project-details">
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+            </div>
           </a>
         </div>
-        <button className="arrow" onClick={nextProject}>&gt;</button>
-      </div>
-    </div>
+            ))}
+            </div>
+          </div>
   );
 }
 
