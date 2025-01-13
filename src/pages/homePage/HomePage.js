@@ -15,7 +15,12 @@ import "./HomePage.css";
 
 function HomePage() {
   const projects = [
-
+    {
+      title: "WordPress Custom Theme- WooCommerce",
+      description: "Following on from my previous Wordpress Project I have built a small Book Festival Website theme to build on my knowledge of custom themes and post types. It was built  using PHP, HTML, CSS and JavaScript.  ",
+      image: bookImage,
+      link: "http://book-festival.42web.io/"
+    },
     {
       title: "WordPress Custom Theme- Movie Site",
       description: "Following on from my previous Wordpress Project I have built a small Movie Website theme to build on my knowledge of custom themes and post types. Again it was built  using PHP, HTML, CSS and JavaScript.  ",
