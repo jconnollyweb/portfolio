@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47ec72bb.css",
-    "main.js": "/portfolio/static/js/main.8fa23ae4.js",
+    "main.js": "/portfolio/static/js/main.071abf44.js",
     "static/js/787.e54a33f3.chunk.js": "/portfolio/static/js/787.e54a33f3.chunk.js",
     "static/media/movies.png": "/portfolio/static/media/movies.1a1558097e460a50df57.png",
     "static/media/jccode.png": "/portfolio/static/media/jccode.c6072d27c728e7ed7b67.png",
+    "static/media/book.png": "/portfolio/static/media/book.3637f5bd1e9dd146c794.png",
     "static/media/cars.png": "/portfolio/static/media/cars.7d0cb4e1391b39686ad7.png",
     "static/media/medals.png": "/portfolio/static/media/medals.4575ef8bc8331c178ef7.png",
     "static/media/furniture.png": "/portfolio/static/media/furniture.e7294f8a16058a246958.png",
@@ -13,11 +14,11 @@
     "static/media/cred-logo.png": "/portfolio/static/media/cred-logo.9a9b0b42acef10bbff8d.png",
     "index.html": "/portfolio/index.html",
     "main.47ec72bb.css.map": "/portfolio/static/css/main.47ec72bb.css.map",
-    "main.8fa23ae4.js.map": "/portfolio/static/js/main.8fa23ae4.js.map",
+    "main.071abf44.js.map": "/portfolio/static/js/main.071abf44.js.map",
     "787.e54a33f3.chunk.js.map": "/portfolio/static/js/787.e54a33f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47ec72bb.css",
-    "static/js/main.8fa23ae4.js"
+    "static/js/main.071abf44.js"
   ]
 }
