@@ -19,8 +19,8 @@ body {
   padding: 20px;
   border-radius: 10px;
   background: linear-gradient(90deg, #f84e24, #feb47b);;
-  scrollbar-width: thin; /* Firefox */
-  scrollbar-color: orange transparent; /* Firefox */
+  scrollbar-width: thin; 
+  scrollbar-color: orange transparent; 
   
 }
 
