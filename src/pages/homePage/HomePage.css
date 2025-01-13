@@ -82,12 +82,7 @@ h2 {
   color: white;
   padding: 20px;
   box-sizing: border-box;
-  overflow: hidden; /* Prevent overflow */
-  text-overflow: ellipsis; /* If text overflows, it will be truncated */
-  word-wrap: break-word;
 }
-
-
 
 .project:hover .project-details {
   display: flex; /* Show on hover */
@@ -125,11 +120,6 @@ a {
   .project-image {
     object-fit: contain; /* Ensure full image is visible on small screens */
   }
-
-  .project-details {
-    padding: 10px; /* Reduce padding on mobile to prevent overflow */
-    font-size: 0.9rem;
-  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -139,10 +129,6 @@ a {
 
   .project-image {
     object-fit: contain; /* Ensure full image is visible on very small screens */
-  }
-
-  .project-details {
-    font-size: 0.85rem; /* Smaller font size for very small screens */
   }
 }
 
