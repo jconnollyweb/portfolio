@@ -4,11 +4,22 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import styles from './ContactMe.module.css'
+import { Link } from 'react-router-dom';
 
 
 function ContactMe() {
     return (
         <div className={styles.contactContainer}>
+             <div className="back" style={{ marginBottom: "20px" }}>
+                    <h4>
+                      <Link 
+                        to="/" 
+                        style={{ marginLeft: "20px", float: "left", color: "white", fontWeight: "bold", textDecoration: "none" }}
+                      >
+                        Back to Portfolio
+                      </Link>
+                    </h4>
+                  </div>
             <h1> Contact Me</h1>
             <div className={styles.contLinks}>
             <a href="https://www.linkedin.com/in/john-connolly-web/" target="_blank" rel="noreferrer">

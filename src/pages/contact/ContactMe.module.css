@@ -1,17 +1,32 @@
 .contactContainer {
-    background: linear-gradient(to right, #f84e24, #feb47b);
-    width: 90%;
+    background-color: #0a192f;
+    width: 1500px;
     margin: auto;
     border-radius: 10px;
     text-align: center;
 }
 
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
 .contLinks {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     padding-bottom: 10%;
+    margin-top: 40px;
     
 }
 
@@ -49,11 +64,16 @@
 .h2 {
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 5px 10px;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 430px) {
     .contLinks {

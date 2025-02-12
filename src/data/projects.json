@@ -1,0 +1,67 @@
+[
+  {
+    "title": "WordPress WooCommerce Site with Custom Pages",
+    "description": "I built a small Book Festival Website theme to enhance my knowledge of WooCommerce and how it would interact with custom Pages and post types",
+    "image": "book.png",
+    "link": "http://book-festival.42web.io/",
+    "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress", "WooCommerce"]
+  },
+  {
+    "title": "Movie Website - WordPress Custom theme",
+    "description": "A movie website I built as a personal project. I wanted to build on my knowledge of Custom post types and ACF. I also wanted to learn more about Taxonomies and linking Categories",
+    "image": "movies.png",
+    "link": "http://port-projects.42web.io/",
+    "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress"]
+  },
+  {
+    "title": "Doncaster Light Infantry Museum Interactive Display",
+    "description": "An interactive display I built as a freelance project for the Doncaster King's Own Light Infantry Museum. This was a custom built WordPress theme. So people could find out more information about the medals being displayed. This is a dummy version before each soldiors details were added onsite ",
+    "image": "medals.png",
+    "link": "https://bdldev.co.uk/doncaster/av01/",
+    "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress", "MYSQL"]
+  },
+  {
+    "title": "Opportunities App",
+    "description": "A new version of my Apprenticeship project. A full stack App. This was dockerized but is now hosted on render.com. I created this for engineers in the company to see what client opportunities where coming up in the pipeline. The user can see all upcoming roles and fiter them by their skillset and grade. There is also an admin section for adding and editing roles. ",
+    "image": "cred-logo.png",
+    "link": "https://opportunities-4.onrender.com/",
+    "skills": ["React", "HTML", "CSS","Node", "MYSQL", "Docker"]
+  },
+  {
+    "title": "York People First - Custom WordPress",
+    "description": "This is a custom built WordPress theme I built as a volunteer project for a non profit organisation. I built custom post types and custom fields using PHP. I added accessibilty button and contact form. This was my first client project before my Apprenticeship. ",
+    "image": "york.png",
+    "link": "https://yorkpeoplefirst.co.uk/",
+    "skills": ["WordPress", "HTML", "CSS","JavaScript", "MYSQL", "Jquery", "PHP"]
+  },
+  {
+    "title": "Presentation ",
+    "description": "This static site was created as I had to do a presentation for a job interview when I was trying to get into the industry and I decided to do that in the form of a web page. Mainly built with HTML and CSS with some JavaScript models and an image slider ",
+    "image": "presentation.png",
+    "link": "https://jconnollyweb.github.io/presentation/",
+    "skills": [ "HTML", "CSS","JavaScript"]
+  },
+  {
+    "title": "Classic Cars - Responsive",
+    "description": "This is a static site I built whilst learning building responsive websites with media queries. It is mainly built with HTML and CSS and also an image slider built with JavaScript. It is fully responsive and can be used on all devices.  ",
+    "image": "cars.png",
+    "link": "https://jconnollyweb.github.io/classic-responsive/",
+    "skills": [ "HTML", "CSS","JavaScript"]
+  },
+  {
+    "title": "Furniture Store - Responsive",
+    "description": "This is another static site I built in my early days of coding as I was teaching myself the basics of frontend. This is entirely made with just HTML and CSS. It is fully responsive",
+    "image": "furniture.png",
+    "link": "https://jconnollyweb.github.io/Maynooth-Furniture/",
+    "skills": [ "HTML", "CSS", "AdobeXD"]
+  },
+  {
+    "title": "JC Coding",
+    "description": "This is another static site I created. I built this when I was learning how to build custom themes for WordPress and this was the frontend I designed for the theme. You can see small similarities in the York People First site that I carried over. It is built with HTML,CSS and some JavaScript",
+    "image": "jccode.png",
+    "link": "https://jconnollyweb.github.io/JC-Coding/",
+    "skills": [ "HTML", "CSS","JavaScript", "AbodeXD"]
+  }
+]
+
+  
