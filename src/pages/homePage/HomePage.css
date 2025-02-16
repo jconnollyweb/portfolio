@@ -30,21 +30,30 @@ body {
 .name {
   font-size: 3rem;
   color: #64ffda;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   margin-top: 20%;
+  margin-left: 20px;
+}
+
+.role {
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: 30px;
+
 }
 
 .summary {
   font-size: 1rem;
   color: #8892b0;
   line-height: 1.6;
-  margin-top: 15%;
+  margin-top: 5%;
+  margin-left: 20px;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 20%;
   margin-left: 20px;
 }
 
@@ -280,10 +289,11 @@ body {
 
   .work-card{
     max-width: 768px;
+    margin-left: -40px;
   }
 
   .work-card h3{
-    width: 10%;
+    
     text-wrap: wrap;
     font-size: 10px;
   }
@@ -293,13 +303,14 @@ body {
   }
 
   .work-date{
-    margin-left: -160px;
+    margin-left: 5px;
   }
 
   .work-info {
-    text-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
-    margin-left: -200px;
+    margin-left: -30px;
   }
 
  
@@ -311,10 +322,12 @@ body {
     overflow-y: auto;
   }
 
-  .container {
+  .content {
     width: 100%;
-    max-width: 100%;
-    padding: 20px;
+  }
+
+  .container {
+    width: 97%;
     box-sizing: border-box;
     flex-direction: column;
   }
@@ -325,13 +338,26 @@ body {
     position: relative;
   }
 
-  .projects-section{
-    max-width: 768px;
+  .about-section p {
+    width: 95%;
+    font-size: 15px;
   }
 
-  .content {
+  .projects-section{
+    max-width: 100%;
+    margin-left: -20px;
+  }
+
+  .project-card {
     width: 100%;
-    margin: 0;
-    padding: 20px;
+    margin-left: -30px;
+    height: auto;
+
+  }
+
+ 
+
+  .work-card {
+    display: none;
   }
 }

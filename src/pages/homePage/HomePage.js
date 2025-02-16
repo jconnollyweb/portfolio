@@ -104,9 +104,9 @@ function HomePage() {
       {/* Sidebar */}
       <aside className="sidebar">
         <h1 className="name">John Connolly</h1>
+        <h3 className="role">Frontend Devloper</h3>
         <p className="summary">
-         <b> Frontend developer</b> with experience in building modern, responsive, and user-friendly web applications
-          using React, WordPress, and Power Platform.
+          I'm John. I enjoy building attractive, responsive and user-friendly websites.
         </p>
         <nav className="nav">
   <a
@@ -154,15 +154,13 @@ function HomePage() {
         <div id="about">
           <section id="about" className="about-section">
             <h2>About</h2>
-            <p>Hello and thank you for taking the time to check out my portfolio. I am excited to find the perfect position for someone like me, who is eager to continue my professional growth in the industry. I have recently completed my level 4 apprenticeship in Software Engineering with a merit and I am eager to leverage my skills and passion for software development.
-          During my apprenticeship I had the opportunity to work on a range of projects that honed my proficiency in frontend technologies, languages and frameworks like React, JavaScript and Angular.
-          I also built a full stack application with a React frontend as part of my final project. My experience includes creating responsive and user friendly interfaces.</p> <p>Working with different libraries like AG-Grid and High Charts and different testing libraries and methodologies.
-          I have also gained experience in working in cross functional teams and working in an agile environment.
-          
-          Whilst I believe my specialism is in frontend development I have also gained experience working on DevOps projects for which I have gained an insight and understanding of the benefits of continuous collaboration between development and operations teams.
-          Before my apprenticeship I was a pastry chef for many years and it was not until the Covid 19 pandemic that I decided to change careers. I was a self-taught developer working on static websites and a volunteer project to gain industry experience.</p> <p>
-          
-          I am self-motivated and determined to succeed and develop my capabilities to the highest possible standard. I am proficient in HTML, CSS, JavaScript and React and I have had exposure to other frameworks such as Next.js and Angular. I have a solid understanding of software development best practices and design principles. I have experience in version control systems, continuous integration and deployment pipelines. I am enthusiastic about the opportunity to work somewhere where I can contribute my current skills and, more importantly, thrive in a supportive atmosphere that encourages continuous learning and professional growth. I am eager to embrace the challenges and opportunities that come next as I continue to develop into a more polished professional.
+            <p>Hello, and thank you for visiting my portfolio.
+I am a dedicated and adaptable software developer with a passion for creating user-friendly, accessible, and visually appealing web applications. I recently completed my Level 4 Apprenticeship in Software Engineering with merit, during which I worked on a variety of projects that strengthened my expertise in frontend technologies, including React, JavaScript, and Angular.</p>  <p>I have also built full-stack applications using React and Angular for the frontend, giving me a well-rounded understanding of modern web development.
+In addition to my frontend expertise, I have developed numerous custom WordPress themes, building my own post types and custom fields as well as creating custom WooCommerce sites, and built several Power Apps to streamline business processes. I also have experience working with data visualization libraries such as High charts and AG Grid, enhancing the usability of applications with complex data sets.
+My experience extends beyond coding—I have worked in cross-functional Agile teams for large global companies, collaborating closely with designers, backend developers, and stakeholders to deliver high-quality solutions. I have also gained exposure to DevOps practices, CI/CD pipelines, and version control systems, which have given me a strong appreciation for the benefits of seamless collaboration between development and operations teams.</p> <p>
+Before transitioning into software development, I worked as a pastry chef for several years. It was during the COVID-19 pandemic that I made the decision to pursue a career in tech, starting as a self-taught developer by building static websites and volunteering on projects to gain hands-on experience. This background has shaped my ability to adapt, problem-solve, and work under pressure—skills that I now apply to software development.
+I am eager to contribute my skills and continue growing in a supportive environment that values innovation and professional development. I thrive on challenges and look forward to opportunities where I can create impactful digital experiences while continuously evolving as a developer.
+
                </p>
           </section>
         </div>
