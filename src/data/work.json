@@ -1,4 +1,10 @@
 [
+     {
+        "date": "APRIL 25 - PRESENT",
+        "title": "Frontend/WordPress Developer @ Titeknit Limited",
+        "description": "Worked across multiple UK-based WordPress projects, building and maintaining custom websites for commercial clients including construction suppliers, energy companies, and product-focused businesses. Developed custom post types and implemented Advanced Custom Fields (ACF) to structure content and enable easy client-managed updates. Contributed to frontend development using HTML, CSS, and JavaScript to deliver responsive, accessible, and user-friendly interfaces. Diagnosed and resolved issues related to plugins such as Elementor and WooCommerce, ensuring site stability and performance. Provided ongoing site maintenance, updates, and bug fixes following project delivery.",
+        "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress", "ACF", "WooCommerce", "Elementor"]
+    },
     {
         "date": "JULY 24 - AUG 24",
         "title": "WordPress Developer @ Bonsai Digital",

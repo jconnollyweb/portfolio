@@ -1,4 +1,26 @@
 [
+   {
+  "title": "WordPress Website for Rainscreen Façade Supplier",
+  "description": "Developed and maintained a custom WordPress website for a UK-based rainscreen façade supplier. Built bespoke custom post types to manage products and services, and implemented Advanced Custom Fields (ACF) to enable straightforward content updates by the client. Resolved Elementor plugin issues, ensured full responsiveness across devices, and provided ongoing site maintenance and updates post-launch.",
+  "image": "esp.png",
+  "link": "https://tellingrainscreens.co.uk/",
+  "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress", "ACF", "Elementor"]
+},
+{
+  "title": "WordPress WooCommerce Website for Boiler Company",
+  "description": "Contributed to the development of a WordPress WooCommerce website for a UK-based boiler company. Created custom post types for services and offerings, and used Advanced Custom Fields (ACF) to simplify content management for non-technical users. Debugged and resolved WooCommerce-related issues, ensured responsive design standards, and supported ongoing site maintenance and updates.",
+  "image": "hug-logo.png",
+  "link": "https://hugboilers.com/",
+  "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress", "ACF", "WooCommerce", "Elementor"]
+},
+{
+  "title": "WordPress Website for Playground Equipment Company",
+  "description": "Built a custom WordPress website for a UK-based playground equipment company. Implemented tailored custom post types to manage products and services, alongside Advanced Custom Fields (ACF) to allow easy client-side content updates. Focused on clean structure, maintainability, and responsive design best practices.",
+  "image": "esp.png",
+  "link": "https://espplay.co.uk/",
+  "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress", "ACF"]
+},
+
   {
     "title": "WordPress WooCommerce Site with Custom Pages",
     "description": "I built a small Book Festival Website theme to enhance my knowledge of WooCommerce and how it would interact with custom Pages and post types",

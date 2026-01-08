@@ -1,23 +1,50 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './MyCv.css'; // Import the CSS file
+import React from "react";
+import { Link } from "react-router-dom";
+import "./MyCv.css";
 
 function MyCv() {
+  const cvUrl = `${process.env.PUBLIC_URL}/John-Connolly-CV.pdf`;
+
   return (
-    <div className="cv-container">
-      <div className="back">
-        <h4>
-          <Link to="/">Back to Portfolio</Link>
-        </h4>
-      </div>
-      <iframe
-        className="cv-iframe"
-        src="https://1drv.ms/w/c/7bffc89783e92f2e/IQO6NDl12f4lRI1QyA_KxPfOAV9tKCXFI58pgJT-lYg5Z2o?em=2"
-        frameBorder="0"
-      >
-        This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
-      </iframe>
-    </div>
+    <main className="cv-page">
+      <header className="cv-topbar">
+        <Link to="/" className="cv-back">← Back to Portfolio</Link>
+
+        <div className="cv-actions">
+          <a
+            href={cvUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="cv-btn"
+          >
+            View PDF
+          </a>
+
+          <a
+            href={cvUrl}
+            download
+            className="cv-btn primary"
+          >
+            Download PDF
+          </a>
+        </div>
+      </header>
+
+      <section className="cv-card">
+        <div className="cv-card-head">
+          <h1>Curriculum Vitae</h1>
+          <p>Scroll to preview or download the PDF</p>
+        </div>
+
+        <div className="cv-preview">
+          <iframe
+            src={cvUrl}
+            title="John Connolly CV"
+            className="cv-iframe"
+          />
+        </div>
+      </section>
+    </main>
   );
 }
 
