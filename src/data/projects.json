@@ -2,7 +2,7 @@
    {
   "title": "WordPress Website for Rainscreen Façade Supplier",
   "description": "Developed and maintained a custom WordPress website for a UK-based rainscreen façade supplier. Built bespoke custom post types to manage products and services, and implemented Advanced Custom Fields (ACF) to enable straightforward content updates by the client. Resolved Elementor plugin issues, ensured full responsiveness across devices, and provided ongoing site maintenance and updates post-launch.",
-  "image": "tell.png",
+  "image": "tell-2.png",
   "link": "https://tellingrainscreens.co.uk/",
   "skills": ["PHP", "HTML", "CSS", "JavaScript", "WordPress", "ACF", "Elementor"]
 },
