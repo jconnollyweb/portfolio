@@ -35,20 +35,14 @@
     "link": "http://port-projects.42web.io/",
     "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress"]
   },
-  {
-    "title": "Doncaster Light Infantry Museum Interactive Display",
-    "description": "An interactive display I built as a freelance project for the Doncaster King's Own Light Infantry Museum. This was a custom built WordPress theme. So people could find out more information about the medals being displayed. This is a dummy version before each soldiors details were added onsite ",
-    "image": "medals.png",
-    "link": "https://bdldev.co.uk/doncaster/av01/",
-    "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress", "MYSQL"]
+   {
+    "title": "Construction Company - WordPress Custom theme",
+    "description": "A construction company website I built as a personal project. I wanted to build on my knowledge of Custom post types and ACF. I also wanted to learn more about Taxonomies and linking Categories",
+    "image": "construction.png",
+    "link": "https://connolly-development.42web.io/",
+    "skills": ["PHP", "HTML", "CSS","JavaScript", "WordPress"]
   },
-  {
-    "title": "Opportunities App",
-    "description": "A new version of my Apprenticeship project. A full stack App. This was dockerized but is now hosted on render.com. I created this for engineers in the company to see what client opportunities where coming up in the pipeline. The user can see all upcoming roles and fiter them by their skillset and grade. There is also an admin section for adding and editing roles. ",
-    "image": "cred-logo.png",
-    "link": "https://opportunities-4.onrender.com/",
-    "skills": ["React", "HTML", "CSS","Node", "MYSQL", "Docker"]
-  },
+ 
   {
     "title": "York People First - Custom WordPress",
     "description": "This is a custom built WordPress theme I built as a volunteer project for a non profit organisation. I built custom post types and custom fields using PHP. I added accessibilty button and contact form. This was my first client project before my Apprenticeship. ",
